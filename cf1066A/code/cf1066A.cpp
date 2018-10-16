@@ -9,9 +9,6 @@ int main(){
   while(t--){
     cin >> L >> v_i >> l_i >>r_i;
     long lanterns = L/v_i;
-    // if(!(l_i%v_i) || !(r_i%v_i) ){
-    //   r_i++;
-    // }
     long covered = (r_i/v_i) - (l_i/v_i) ;
     if(!(l_i%v_i) ){
       covered++;
